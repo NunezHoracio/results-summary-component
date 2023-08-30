@@ -72,7 +72,7 @@ main{
 .result-card__your-result .result-card__title{
     color: var(--light-lavender);
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 
@@ -88,7 +88,7 @@ main{
 }
 
 .result-card__score .result-card__value{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 800;
     color: var(--white);
 }
@@ -105,7 +105,7 @@ main{
 }
 
 .result-card__description .result-card__rating{
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-weight: 700;
     color: var(--white);
     margin-bottom: 20px;
@@ -233,10 +233,22 @@ main{
         border-radius: 0px 0px 30px 30px;
     }
 
+    .result-card__your-result .result-card__title{
+        font-size: 1rem;
+    }
+
     .result-card__score{
         margin: 28px auto;
         width: 140px;
         height: 140px;
+    }
+
+    .result-card__score .result-card__value{
+        font-size: 2.5rem;
+    }
+
+    .result-card__description .result-card__rating{
+        font-size: 1.2rem;
     }
 
     .result-card__summary{
@@ -249,5 +261,6 @@ main{
 
     .result-card__summary .result-card__title{
         margin-bottom: 28px;
+        font-size: 1rem;
     }
 }
